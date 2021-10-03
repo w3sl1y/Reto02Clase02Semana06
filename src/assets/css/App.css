@@ -1,0 +1,89 @@
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190814/pngtree-abstract-background-image_298809.jpg);
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  flex: 1;
+}
+
+div.left {
+display: flex;
+flex-direction: column;
+flex: 0.2;
+text-align: center;
+padding: 20px;
+}
+
+div.right {
+  flex: 0.8;
+
+  padding: 20px;
+}
+
+div.header {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+div.new {
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+
+  letter-spacing: 8px;
+}
+
+div.home {
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+
+  align-items: center;
+}
+
+a.home {
+  display: flex;
+  flex: 0.2;
+  margin-inline: 0.5em;
+  font-size: 1.5em;
+  color: black;
+  text-decoration: none;
+}
+
+a.home:hover {
+  color: rgb(119, 255, 214);
+  transition: 0.3s;
+}
+
+a.categories {
+  text-decoration: none;
+  color: #212121;
+}
+
+a.categories:hover {
+  color: rgb(235, 155, 255);
+  transition: 0.3s;
+}
+
+div.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+div.up {
+  display: flex;
+  flex: 0.3;
+  padding: 0.2em;
+}
+
+div.down {
+  display: flex;
+  flex: 0.3;
+  padding: 0.2em;
+}
